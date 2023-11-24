@@ -13,7 +13,7 @@ const Navbar = () => {
         </div>
         <div className="right-menu">
           <ul className='items'>
-            <li>Start Exploring {`->`}</li>
+            <li>Start Exploring {`-->`}</li>
           </ul>
         </div>
       </div>

@@ -12,9 +12,9 @@ const Detail = () => {
     <div className='detail'>
       <div className="left">
         <div className="rating-review">
-          <IoMdStar />
+          <label className='icon small-icons star-icon'><IoMdStar /></label>
           <label>4.9 stars</label>
-          <label>(231 Reviews)</label>
+          <label className='review-count'>(231 Reviews)</label>
         </div>
         <h1 className="name">TSUKISHIMA MONJA STREET</h1>
         <p className="description">
@@ -22,11 +22,11 @@ const Detail = () => {
         </p>
         <div className="contact">
           <div className="location">
-            <IoLocationSharp />
+            <label className='icon small-icons'><IoLocationSharp /></label>
             <label>Tokyo, Japan</label>
           </div>
           <div className="phone">
-            <MdLocalPhone />
+            <label className='icon small-icons'><MdLocalPhone /></label>
             <label>+1 234 567 890</label>
           </div>
         </div>
@@ -40,7 +40,7 @@ const Detail = () => {
             <LuShare2 />
           </button>
         </div>
-        <label>October 4, 2023</label>
+        <label className='date'>October 4, 2023</label>
       </div>
     </div>
   )

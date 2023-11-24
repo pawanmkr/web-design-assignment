@@ -21,6 +21,10 @@
       flex-direction: row;
       list-style: none;
       padding: 0;
+
+      :hover {
+        cursor: pointer;
+      }
     }
 
     .left-item {

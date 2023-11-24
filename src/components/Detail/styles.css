@@ -1,1 +1,78 @@
-/*# sourceMappingURL=styles.css.map */
+.detail {
+  margin: 10px 100px;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-size: 18px;
+  font-family: "Karla", sans-serif;
+  background-color: white;
+  display: flex;
+  box-shadow: 10px 10px 0 0;
+}
+.detail .small-icons {
+  margin: 0 5px 0 0;
+}
+.detail .left {
+  width: 85%;
+  padding: 35px;
+}
+.detail .left .rating-review {
+  display: flex;
+  justify-content: center;
+  width: -moz-max-content;
+  width: max-content;
+}
+.detail .left .rating-review .star-icon {
+  color: #FFC901;
+}
+.detail .left .rating-review .review-count {
+  margin: 0 0 0 15px;
+  color: #CCCCCC;
+}
+.detail .left .name {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 4em;
+  margin: 20px 0;
+  font-weight: 900;
+}
+.detail .left .description {
+  font-size: 1.2em;
+}
+.detail .left .contact {
+  display: flex;
+}
+.detail .left .contact .location {
+  display: flex;
+  justify-content: center;
+  margin: 0 50px 0 0;
+}
+.detail .left .contact .phone {
+  display: flex;
+  justify-content: center;
+}
+.detail .left .contact :hover {
+  cursor: pointer;
+}
+.detail .right {
+  width: 15%;
+  padding: 25px;
+  text-align: end;
+}
+.detail .right .buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.detail .right .buttons button {
+  background-color: #F0EACD;
+  padding: 20px 20px 17px 20px;
+  margin: 0 0 30px 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 1.5em;
+  box-shadow: 5px 5px 0 0;
+}
+.detail .right .buttons :hover {
+  cursor: pointer;
+}
+.detail .right .date {
+  font-size: 1.2em;
+}/*# sourceMappingURL=styles.css.map */
