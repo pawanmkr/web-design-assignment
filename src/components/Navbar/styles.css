@@ -1,0 +1,25 @@
+.navbar {
+  width: 95%;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 10px;
+  color: whitesmoke;
+  margin: 25px;
+}
+.navbar .container {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+.navbar .container .items {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+}
+.navbar .container .left-item {
+  margin: 0 35px 0 0;
+}/*# sourceMappingURL=styles.css.map */

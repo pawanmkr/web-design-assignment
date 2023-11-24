@@ -1,0 +1,38 @@
+.gallery {
+
+  margin: 10px 100px;
+
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  grid-template-areas: 
+    "large small1 small2"
+    "large small3 small4";
+  grid-gap: 20px;
+
+  .image-container {
+    border-radius: 10px;
+    overflow: hidden;
+
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .one {
+    grid-area: large;
+  }
+  .two {
+    grid-area: small1;
+  }
+  .three {
+    grid-area: small2;
+  }
+  .four {
+    grid-area: small3;
+  }
+  .five {
+    grid-area: small4;
+  }
+}
